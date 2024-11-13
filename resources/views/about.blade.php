@@ -4,6 +4,30 @@
 
 @section('content')
 
+    <!-- header body -->
+    <div class="overflow-hidden py-9 py-xl-10 position-relative">
+        <img src="./assets/img/bg/bg1.jpg" class="position-absolute z-n1 top-0 h-100 w-100 object-fit-cover" alt="Meeting">
+
+        <div class="position-absolute z-n1 top-0 h-100 w-100 bg-dark"
+            style="opacity: 0.85; mix-blend-mode: multiply; filter: contrast(1.15) brightness(0.85);">
+        </div>
+
+        <div class="position-absolute z-0 top-0 h-100 w-100">
+            <div class="container h-100 d-flex align-items-center">
+                <div class="max-w-2xl mx-auto mx-xl-0 text-center text-xl-start">
+                    <h1 class="m-0 mt-7 text-white tracking-tight text-6xl fw-bold" data-aos-delay="0" data-aos="fade"
+                        data-aos-duration="3000">
+                        Tentang Kami
+                    </h1>
+                    <p class="m-0 mt-4 text-white text-lg leading-8" data-aos-delay="100" data-aos="fade"
+                        data-aos-duration="3000">
+                        Memudahkan proses mencuci, satu pakaian bersih dalam satu waktu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- About Us -->
     <div class="overflow-hidden py-7 py-sm-8 py-xl-9">
         <div class="container">

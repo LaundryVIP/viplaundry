@@ -32,7 +32,7 @@
                                         data-aos-delay="200" data-aos="fade" data-aos-duration="3000">
                                         Hubungi Kami
                                     </a>
-                                    <a href="javascript:;"
+                                    <a href="{{ route('login') }}"
                                         class="btn btn-lg text-white icon-link icon-link-hover bg-secondary-hover text-sm leading-6 fw-semibold"
                                         data-aos-delay="300" data-aos="fade" data-aos-duration="3000">
                                         Mulai Sekarang
@@ -57,7 +57,7 @@
                         Layanan Kami
                     </h2>
                     <p class="m-0 mt-2 text-body-emphasis text-4xl tracking-tight fw-bold">
-                        Nikmati Layanan Laundry VIP Kami 
+                        Nikmati Layanan Laundry VIP Kami
                     </p>
                     {{-- <p class="m-0 mt-4 text-body text-lg leading-8">
                         Experience the power of eco-friendly laundry with our premium detergents
@@ -75,13 +75,14 @@
                             </div>
 
                             <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
-                                Eco-Friendly Dry Cleaning
+                                Material Ramah Lingkungan
                             </h3>
 
                             <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
                             <p class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
-                                Safely clean your delicate garments with our eco-friendly dry cleaning services, leaving
-                                them fresh and free from harsh chemicals.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit est cumque beatae vero
+                                debitis quaerat consectetur atque saepe nostrum inventore aliquid, voluptatibus, ab, minima
+                                aperiam qui dolorem ullam eveniet iusto.
                             </p>
                         </div>
                     </div>
@@ -94,13 +95,14 @@
                             </div>
 
                             <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
-                                Wash & Fold Service
+                                Layanan Cuci dan Lipat
                             </h3>
 
                             <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
                             <p class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
-                                Save time by letting us handle your laundry needs with our efficient wash & fold service,
-                                ensuring your clothes are clean and neatly folded.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi reiciendis, soluta modi
+                                exercitationem, dolorem cupiditate deleniti placeat ea sed natus labore earum obcaecati
+                                inventore aperiam perspiciatis odio dicta? Eaque, officiis.
                             </p>
                         </div>
                     </div>
@@ -113,13 +115,14 @@
                             </div>
 
                             <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
-                                Same-Day Pickup & Delivery
+                                Pengambilan dan Pengiriman Cepat
                             </h3>
 
                             <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
                             <p class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
-                                Forget about waiting – our same-day pickup and delivery service ensures your laundry is
-                                promptly picked up, cleaned, and returned to you on time.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam hic dicta
+                                possimus doloribus architecto? Eveniet alias dolor aut quae possimus ex eum, qui doloribus
+                                dolorem harum, quia incidunt reprehenderit.
                             </p>
                         </div>
                     </div>
@@ -127,17 +130,15 @@
             </div>
 
             <div class="text-center pt-7">
-                <a href="javascript:;"
+                <a href="/services"
                     class="btn btn-lg btn-primary text-white icon-link icon-link-hover text-sm leading-6 fw-semibold">
-                    Learn more
+                    Layanan Kami
                     <span class="bi align-self-start left-to-right" aria-hidden="true">→</span>
                     <span class="bi align-self-start right-to-left" aria-hidden="true">←</span>
                 </a>
             </div>
         </div>
     </div>
-
-
 
     <!-- About Us -->
     <div class="overflow-hidden py-7 py-sm-8 py-xl-9">
@@ -146,7 +147,7 @@
                 <div class="col-12 col-xl-5 order-last">
                     <div class="mx-auto max-w-2xl">
                         <h2 class="m-0 text-primary-emphasis text-base leading-7 fw-semibold">
-                            About Us
+                            Tentang Kami
                         </h2>
                         <p class="m-0 mt-2 text-body-emphasis text-4xl tracking-tight fw-bold">
                             Making laundry a breeze, one clean garment at a time.
@@ -156,9 +157,9 @@
                             top-quality, convenient, and affordable laundry solutions to our valued customers.
                         </p>
                         <div class="mt-4">
-                            <a href="javascript:;"
+                            <a href="/about"
                                 class="icon-link icon-link-hover text-decoration-none text-sm leading-6 fw-bold">
-                                Learn more
+                                Tentang Kami
                                 <span class="bi align-self-start left-to-right" aria-hidden="true">→</span>
                                 <span class="bi align-self-start right-to-left" aria-hidden="true">←</span>
                             </a>
@@ -182,8 +183,6 @@
             </div>
         </div>
     </div>
-
-
 
     <!-- Testimonials -->
     <div class="overflow-hidden py-7 py-sm-8 py-xl-9 bg-body-secondary">
@@ -299,8 +298,6 @@
         </div>
     </div>
 
-
-
     <!-- Client -->
     <div class="overflow-hidden py-6 py-sm-7 py-xl-8 bg-body-tertiary">
         <div class="container">
@@ -319,47 +316,47 @@
                         <ul class="glide__slides align-items-center">
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo1.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk1.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo2.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk2.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo3.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk3.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo4.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk4.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo5.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk5.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo6.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk6.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo7.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk7.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo8.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk8.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                             <li class="glide__slide">
                                 <div class="p-5">
-                                    <img src="./assets/img/clients/logo9.png" class="img-fluid" alt="clients">
+                                    <img src="./assets/img/clients/produk3.png" class="img-fluid" alt="clients">
                                 </div>
                             </li>
                         </ul>
@@ -368,8 +365,6 @@
             </div>
         </div>
     </div>
-
-
 
     <!-- Contact us -->
     <div id="contact-us" class="overflow-hidden py-7 py-sm-8 py-xl-9">

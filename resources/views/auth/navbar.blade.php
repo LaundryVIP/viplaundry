@@ -114,76 +114,8 @@
                     <ul class="navbar-nav align-items-xl-center flex-grow-1 column-gap-4 row-gap-4 row-gap-xl-2">
                         <li class="nav-item ms-xl-auto">
                             <a href="/"
-                                class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold"
-                                aria-current="page">
-                                Beranda
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="/services"
-                                class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold">
-                                Layanan
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="/about"
-                                class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold">
-                                Tentang
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="/blog"
-                                class="px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold">
-                                Blog
-                            </a>
-                        </li>
-
-                        {{-- <li class="nav-item">
-                            <div class="dropdown">
-                                <button
-                                    class="btn w-100 text-start dropdown-toggle px-3 text-body-emphasis bg-body-secondary-hover nav-link rounded-3 text-base leading-6 fw-semibold"
-                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Blog
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-hover end-0 text-sm shadow bg-body-tertiary"
-                                    style="--bs-dropdown-min-width: 9rem;">
-                                    <li class="d-none d-xl-block" style="color: var(--bs-tertiary-bg);">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                            fill="currentColor"
-                                            class="mt-n1 d-inline-block position-absolute top-0 end-0 translate-middle"
-                                            viewBox="0 0 16 16">
-                                            <path class="carret-dropdown-path"
-                                                d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
-                                        </svg>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-body-emphasis bg-body-secondary-hover py-2 text-base leading-6 fw-semibold"
-                                            href="./blog.html">
-                                            Blog page
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-body-emphasis bg-body-secondary-hover py-2 text-base leading-6 fw-semibold"
-                                            href="./blog-post.html">
-                                            Blog post
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item text-body-emphasis bg-body-secondary-hover py-2 text-base leading-6 fw-semibold"
-                                            href="./blog-author.html"> Author page
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li> --}}
-
-                        <li class="nav-item ms-xl-auto">
-                            <a href="/contact"
                                 class="px-3 text-body-emphasis bg-body-secondary-hover border nav-link rounded-3 text-base leading-6 fw-semibold text-center">
-                                Hubungi Kami
+                                Beranda
                             </a>
                         </li>
                     </ul>

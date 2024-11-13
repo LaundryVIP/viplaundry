@@ -1,3 +1,31 @@
+{{-- <!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'Login/Register')</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ asset('assets/css/main.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <!-- Add additional CSS or meta tags as needed -->
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Content of the page -->
+        @yield('content')
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ asset('assets/libraries/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/scripts.js') }}"></script>
+
+</body>
+
+</html> --}}
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr" data-bs-theme="auto">
 
@@ -47,7 +75,7 @@
 
 <body>
     @include('partials.loader')
-    @include('partials.navbar')
+    @include('auth.navbar')
 
 
     <div class="content">

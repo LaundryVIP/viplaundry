@@ -17,11 +17,11 @@
                 <div class="max-w-2xl mx-auto mx-xl-0 text-center text-xl-start">
                     <h1 class="m-0 mt-7 text-white tracking-tight text-6xl fw-bold" data-aos-delay="0" data-aos="fade"
                         data-aos-duration="3000">
-                        Our services
+                        Layanan Kami
                     </h1>
                     <p class="m-0 mt-4 text-white text-lg leading-8" data-aos-delay="100" data-aos="fade"
                         data-aos-duration="3000">
-                        Discover laundry solutions that fit your busy life.
+                        Nikmati Layanan Laundry VIP Kami.
                     </p>
                 </div>
             </div>
