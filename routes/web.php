@@ -1,34 +1,54 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
+// Halaman utama
 Route::get('/', function () {
-    return view('home');  // Pastikan 'home' sesuai dengan nama file Blade
+    return view('home');
 });
 
+// Halaman lain (contoh)
 Route::get('/services', function () {
-    return view('services');  // Pastikan 'home' sesuai dengan nama file Blade
+    return view('services');
 });
-
 Route::get('/about', function () {
-    return view('about');  // Pastikan 'home' sesuai dengan nama file Blade
+    return view('about');
 });
-
-
 Route::get('/blog', function () {
     return view('blog');
 });
-
 Route::get('/contact', function () {
     return view('contact');
 });
 
-// Login route
-Route::get('/login', function () {
-    return view('auth.login');
-})->name('login');
+// Login dan Register
+Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
+Route::post('/login', [AuthController::class, 'login']);
+Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
+Route::post('/register', [AuthController::class, 'register']);
 
-// Register route
-Route::get('/register', function () {
-    return view('auth.register');
-})->name('register');
+// Logout
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
+
+// (dilindungi middleware auth)
+// Dashboard 
+Route::get('/dashboard', function () {
+    return view('dashboard.user');
+})->middleware('auth')->name('dashboard');
+
+// Dashboard Layanan Laundry Kiloan
+Route::get('/laundry-kiloan', function () {
+    return view('dashboard.laundrykiloan');
+})->middleware('auth')->name('dashboard.laundrykiloan');
+
+// Dashboard Layanan Laundry Satuan
+Route::get('/laundry-satuan', function () {
+    return view('dashboard.laundrysatuan');
+})->middleware('auth')->name('dashboard.laundrysatuan');
+
+// Dashboard Layanan Laundry Setrika Kiloan dan Lipat Baju
+Route::get('/setrika-lipatbaju', function () {
+    return view('dashboard.setrikalipatbaju');
+})->middleware('auth')->name('dashboard.setrikalipatbaju');

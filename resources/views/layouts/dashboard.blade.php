@@ -47,7 +47,7 @@
 
 <body>
     @include('partials.loader')
-    @include('partials.navbarAuth')
+    @include('partials.navbarDashboard')
 
 
     <div class="content">
