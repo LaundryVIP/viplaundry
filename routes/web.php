@@ -52,3 +52,8 @@ Route::get('/laundry-satuan', function () {
 Route::get('/setrika-lipatbaju', function () {
     return view('dashboard.setrikalipatbaju');
 })->middleware('auth')->name('dashboard.setrikalipatbaju');
+
+// Dashboard Layanan Laundry Setrika Kiloan dan Lipat Baju
+Route::get('/laundry-sepatu', function () {
+    return view('dashboard.laundrysepatu');
+})->middleware('auth')->name('dashboard.laundrysepatu');

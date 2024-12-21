@@ -56,7 +56,7 @@
             </div>
             <div>
                 <div
-                    class="row row-cols-1 row-cols-xl-3 gy-5 gx-xl-4 mt-1 justify-content-center justify-content-xl-between">
+                    class="row row-cols-1 row-cols-xl-4 gy-5 gx-xl-4 mt-1 justify-content-center justify-content-xl-between">
                     <div class="col pt-5 pt-xl-4">
                         <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="0" data-aos="fade" data-aos-duration="1000">
                             <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
@@ -116,17 +116,37 @@
                             </p>
                         </div>
                     </div>
+
+                    <div class="col pt-5 pt-xl-4">
+                        <div class="max-w-xl mx-auto mx-xl-0" data-aos-delay="200" data-aos="fade" data-aos-duration="1000">
+                            <div class="ratio" style="--bs-aspect-ratio: 66.66%;">
+                                <img src="./assets/img/bg/bg3.jpg" class="object-fit-cover rounded-3" alt="Service image"
+                                    loading="lazy">
+                            </div>
+
+                            <h3 class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold">
+                                Layanan Laundry Sepatu
+                            </h3>
+
+                            <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                            <p class="m-0 mt-3 text-body-secondary line-clamp-2 text-sm leading-6">
+                                Miliki pakaian yang rapi tanpa repot menyetrika dan melipat sendiri! Layanan setrika kiloan
+                                dan lipat baju kami memastikan pakaian Anda terlihat rapi dan siap digunakan, langsung dari
+                                paket ke lemari.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="text-center pt-7">
+            {{-- <div class="text-center pt-7">
                 <a href="/services"
                     class="btn btn-lg btn-primary text-white icon-link icon-link-hover text-sm leading-6 fw-semibold">
                     Layanan Kami
                     <span class="bi align-self-start left-to-right" aria-hidden="true">→</span>
                     <span class="bi align-self-start right-to-left" aria-hidden="true">←</span>
                 </a>
-            </div>
+            </div> --}}
         </div>
     </div>
 

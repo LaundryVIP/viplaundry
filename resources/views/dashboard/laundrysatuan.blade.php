@@ -54,7 +54,16 @@
                         <img src="./assets/img/bg/bg2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Laundry Satuan</h5><br>
-                            <a href="#" class="btn btn-primary text-white">Pesan Sekarang</a>
+                            {{-- <a href="#" class="btn btn-primary text-white">Pesan Sekarang</a> --}}
+                            <div class="input-group mb-3">
+                                <label class="input-group-text btn btn-primary text-white" for="inputGroupSelect01">Pilih Satuan</label>
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Choose...</option>
+                                    <option value="1">Baju</option>
+                                    <option value="2">Celana</option>
+                                    <option value="3">Jas</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>

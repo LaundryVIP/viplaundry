@@ -154,6 +154,12 @@
                                     </li>
                                     <li>
                                         <a class="dropdown-item text-body-emphasis bg-body-secondary-hover py-2 text-base leading-6 fw-semibold"
+                                            href="/laundry-sepatu">
+                                            Layanan Laundry Sepatu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-body-emphasis bg-body-secondary-hover py-2 text-base leading-6 fw-semibold"
                                             href="/setrika-lipatbaju"> Layanan Setrika Kiloan
                                         </a>
                                     </li>
